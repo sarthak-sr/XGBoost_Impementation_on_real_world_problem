@@ -5,3 +5,5 @@
 - Use of pipelines and transformers is well depicted in the notebook.
 - XGBoost Regression model is implemented to predict the final value.
 - Hyper-parameter tuning using GridserachCV is implemented. 
+- In order to detect outliers, predictions from XGBoost model were made and any actual value which was off by 2.0 was categoried as outlier.
+- These outliers were seperately saved in a CSV file. 
